@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <ApplicationInsightsResourceId>/subscriptions/e1b68a5e-f744-4acd-a6cc-79215218bfa0/resourcegroups/DefaultResourceGroup-WEU/providers/microsoft.insights/components/FirstDeploy</ApplicationInsightsResourceId>
+    <UserSecretsId>d08eb88c-8165-455d-8fa7-d7c8dd44e2ca</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>

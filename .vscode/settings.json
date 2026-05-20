@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "First_Deploy\\bin\\Release\\net10.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/e1b68a5e-f744-4acd-a6cc-79215218bfa0/resourceGroups/az-course-rg/providers/Microsoft.Web/sites/claro-dev"
+}
